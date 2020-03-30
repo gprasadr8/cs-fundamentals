@@ -28,5 +28,12 @@ public class BinaryTreeApp {
         System.out.println("PreOrder Iteration: "+binaryTree.getPreOrderIterationResult());
         System.out.println("------------------------------------------------------");
         System.out.println("PostOrder Recursion: "+binaryTree.getElementsByPostOrder());
+        System.out.println("PostOrder Iteration: "+binaryTree.getPostOrderIterationResult());
+        System.out.println("PostOrder Simp Iter: "+binaryTree.getPostOrderIterSimplifiedRes());
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Level Order: "+binaryTree.getLevelOrderTraversalResult());
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Height: "+binaryTree.height(binaryTree.getRoot()));
+
     }
 }
