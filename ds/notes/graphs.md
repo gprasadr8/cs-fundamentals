@@ -4,6 +4,18 @@ The nodes are sometimes also referred to as vertices and the edges are lines or 
 
 **Mathematical Definition:**
 A Graph consists of a finite set of vertices(or nodes) and set of Edges which connect a pair of nodes.<br>
+        **G = (V,E)** <br>
+          V = set of vertices = {v1,v2,v3,...vn} <br>
+          E = set of edges and each edge represents pair of vertices <br>
+          Directed Edge = Ordered Pair = (v1,v2) where (v1,v2) represents single direction edge. <br>
+          Undirected Edge = Unordered Pair = {v1,v2} where {v1,v2} represents bi-directional edge. <br> 
+          
+**For Example:**  <br>
+            **G=(V,E)** <br>
+            V = {v1,v2,v3} <br>
+            Ordered Pairs of edges= (v1,v2),(v1,v3)(v2,v3)  <br>
+            Unordered Pairs of edges = {v1,v2}{v1,v3}{v2,v1}{v2,v3}{v3,v1}{v3,v1} <br>
+            
 
 **Nodes/Vertices:** <br>
 These are the most important components in any graph. Nodes are entities whose relationships are expressed using edges.<br>
@@ -18,7 +30,7 @@ First vertex v1 is the origin, Second vertex v2 is the destination.<br>
 **Example:** One way road traffic.
 
 #### Undirected Edge:
-The edge(e1) between the unordered pair of vertices(v1,v2) called undirected edge.The edge doesn't point any specific direction. <br>
+The edge(e1) between the unordered pair of vertices{v1,v2} called undirected edge.The edge doesn't point any specific direction. <br>
     ![Undirected Edge](./images/graph_undirected_edge_def.png) <br>
 **Example:** railway lines <br>
 
@@ -93,7 +105,8 @@ If there is a self loop means if an edge refers from vertex **i** to itself then
  
 ##### Adjacency Matrix for Undirected Graph:
 
-See below diagram for undirected graph adjacency matrix.
+See below diagram for undirected graph adjacency matrix. <br>
+
 ![Undirected graph adjacency matrix](./images/adj_matrix_for_undirected_graph.png) <br>
 
 [Source Code Implementation](#)

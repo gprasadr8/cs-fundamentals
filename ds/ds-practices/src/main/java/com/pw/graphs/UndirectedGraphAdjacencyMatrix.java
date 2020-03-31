@@ -1,12 +1,12 @@
 package com.pw.graphs;
 
-public class AdjacencyMatrixGraph {
+public class UndirectedGraphAdjacencyMatrix {
 
     private int numOfVertices;
 
     private boolean[][] adj;
 
-    public AdjacencyMatrixGraph(int numOfVertices){
+    public UndirectedGraphAdjacencyMatrix(int numOfVertices){
         this.numOfVertices = numOfVertices;
         this.adj = new boolean[numOfVertices][numOfVertices];
     }
