@@ -2,9 +2,9 @@ package com.pw.linkedlist.sll;
 
 public class ListNode {
 
-    private int data;
+    public int data;
 
-    private ListNode next;
+    public ListNode next;
 
     public ListNode(int data) {
         this.data = data;
