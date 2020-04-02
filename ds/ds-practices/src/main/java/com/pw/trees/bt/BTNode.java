@@ -2,9 +2,9 @@ package com.pw.trees.bt;
 
 public class BTNode {
 
-    private  int data;
+    public int data;
 
-    private  BTNode left, right;
+    public BTNode left, right;
 
     public BTNode(int data){
         this.data = data;
