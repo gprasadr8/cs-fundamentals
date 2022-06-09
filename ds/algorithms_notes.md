@@ -1,7 +1,8 @@
 Algorithms
 --
 - Algorithm is a step by step procedure for solving a computational problem.
-- Program is also a step by step procedure for solving a problem, but algorithm is written during design whereas program is the real implementation of algorithm.
+- Program is also a step by step procedure for solving a problem. 
+- Algorithm is written during design time whereas program is written during implementation time.
 
 Characteristics of an algorithm
 --
