@@ -1,28 +1,21 @@
-##Data Structures Introduction
-
+## Data Structures Introduction
 
 ### Data Types: 
-Data type specifies which type of value can be stored in a variable and what are the operations can be performed on those values.
 
-Two important things about data types:
-1. Defines a certain type of values
-2. Defines Operations allowed on those values
-
-**For Example:**
-
-**int type:**
-- takes only integer values
-- **Operations:** addition, subtraction, multiplication, bitwise operations etc.
-
-**float type:**
-- takes only floating point values
-- **Operations:** addition, subtraction, multiplication, division etc. But bitwise and mod(%) operations are not allowed.
-
+Data type define
+- certain type of value
+- Operations allowed on those values
+- For ex: int, float
+  - int takes only integer values. 
+    - **Operations performed:** addition, subtraction, multiplication, bitwise operations.
+  - float takes only floating point values. 
+    - **Operations performed:** addition, subtraction, multiplication, division etc. But bitwise and mod(%) operations are not allowed.
+  
 ### User Defined Data Types
-- Some data types are specified in the language itself those are called primitive data types/built-in (ex: int,long, float, boolean,..etc)
-- if user defines the data type and allowed operations those are called as user defined data types
+- Programming language defines primitive data types like int, float, boolean etc.
+- User can define data types of his/her own and operations performed on them.
+- **Example:** classes, interface, etc
 
-**Example:** classes, interface, etc
 ```java
 class Calculator {
     int input_1;
@@ -37,15 +30,9 @@ class Calculator {
 ```
 
 ### Abstract Data Types (ADT):
-
-ADTs are user defined data types which defines the operations on the values using functions without specifying how they can be implemented.
-
-
-**For Example:** 
-
-**Stack ADT:** A stack consists of elements of same type arranged in a sequential order
-
-**Operations:**
+- ADTs are user defined data types along with the operations on the values using functions without implementation details.
+- **For Example: Stack ADT:** A stack consists of elements of same type arranged in a sequential order
+- **Operations:**
 ```
 initialize() - initializing empty stack
 push() - insert an element into stack
@@ -54,50 +41,39 @@ pop() - delete an element from stack
 isEmpty() - checks if stack is empty
 isFull() - checks if stack is full
 ```
-
-- Abstract Data Types hides the implementation from the user
-- There are multiple ways to implement an ADT
-**For Example:** Stack ADT can be implemented by using either arrays or Linked Lists
-- ADTs provides abstraction means ADTs are skeltons i.e interface. If user wants to use an ADT they can use it's operations without knowing about it's implementation
-- **For Exmaple:** if user wants to use Stack, they can simply use push and pop operations without knowing it's implementation
-
-- ADTs are generic concepts irrespective of programming language 
-
-
+- ADT hides the implementation from the user.
+- There are many ways to implement an ADT.
+- **For Example:** Stack ADT can be implemented by using either arrays or Linked Lists.
+- ADTs provides abstraction means ADTs are just skeltons i.e interface. User can use an ADT without knowing implementation details.
+- **For Exmaple:** If Stack functionality is needed, use operations like push and pop without knowing how it is implemented.
+- ADTs are generic concepts not specific to any programming language.
 
 ### Data Structures:
-Data structure is a particular way of storing and organizing the data in a computer so that it can be used efficiently.Efficiently means in terms of time as well as space
-
-- in other words, data structure is used to implement an ADT
-- **For example:** in order to implement **Stack ADT**, we can use an **array** or **linked list** data structures.
-- ADT tells us **what** is to be done and data structure tells us **how** to do it
+- Data structure is a particular way of storing and organizing the data in a computer so that it can be used efficiently.
+- Efficiently means in terms of both time and space.
+- Data structures are implementation of an ADT.
+- **For example:** To implement **Stack ADT**, an **array** or **linked list** data structures can be used.
+- ADT defines **what** operations can be done and data structure defines **how** they are implemented.
 - ADT gives blueprint and data structures gives the implementation
 
 #### How to know  which data structure to use for a particular ADT?
-Generally, different implementations of ADT are compared for time and space efficiency.
-Based on the user requirement best suited will be selected.
-
-**For Example:**
-**Stack ADT:** can be implemented by using array and linked lists. based on user requirement like if user wants time efficiency then he will select the proper best data structure in both of them.
-
+- Different implementations of ADT are compared for time and space efficiency. Based on the user requirement best suited will be selected.
+- **For Example: Stack ADT:** can be implemented by using array or linked list. Based on efficiency of various operations like push, pop etc.. either one can be choosen as per the requirement. 
 
 #### Advantages of Data Structures
 - **Efficiency:** proper choice of data structures make program efficient in terms of space and time.
-- **Reusability:** one implementation can be used by multiple client programs
-- **Abstraction:** Data structure is specified by an ADT which provides a level of abstraction. the client program doesn't have to worry about the implementation details.
+- **Reusability:** one implementation can be used by multiple client programs.
+- **Abstraction:** Data structure is specified by an ADT which provides a level of abstraction. Client program doesn't need to know the implementation details.
 
-
-### Types of Data Structures:
-
-#### 1. Linear Data Structures:
-A data structure is a linear when all the elements are accessed in a linear(sequentially) order.
-but it's not compulsory to store all elements sequentially(ex linked list).
-
-**Examples:** Array, Stack, Queue, Linked List
-
-#### 2. Non-Linear Data Structures
-A data structure is a non-linear when all the elements are not stored/accessed in a linear(sequential) order.
-**Examples:** Trees and Graphs
+Types of Data Structures:
+--
+- Linear Data Structures:
+  - A data structure is linear when all the elements are accessed in sequential order.
+  - It is not mandatory to store all elements sequentially(Ex: linked list).
+  - Examples of linear data structures are Array, Stack, Queue, Linked List etc.
+- Non-Linear Data Structures
+  - A data structure is non-linear when all the elements are not accessed in sequential order.
+  - Examples of non-linear data strcutres include Trees and Graphs etc.
 
 
 
