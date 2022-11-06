@@ -6,10 +6,10 @@ Data Structure is a way to store and organize the data so that it can be used ef
 #### what are we going to learn about Data Structures?
 
 We are going to learn about it's <br>
-		1. Logical view
-		2. Operations
-		3. Cost of the Operations(in time)
-		4. Concrete Implementation 
+1. Logical view
+2. Operations
+3. Cost of the Operations(in time)
+4. Concrete Implementation 
 
 #### Abstract Data Type(ADT): 
 Before discussing about ADT will see System-defined data types for example all the primitive types(int, float, etc.) support basic operations like addition, subtraction. The system provides the implementation for primitive data types.<br> 

@@ -1,4 +1,4 @@
-package com.pw.arrays;
+package com.dg.cs.fundamentals.arrays;
 
 public class DynamicArrayApp {
 
