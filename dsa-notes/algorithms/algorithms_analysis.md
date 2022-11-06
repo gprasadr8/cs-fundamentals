@@ -39,6 +39,9 @@ void swap(int a,int b) { // total execution time = 3 time steps
     //runtime analysis f(n) = 3 = constant time    
 }
 ```
+### Frequency count method for Time complexity
+
+
 
 ### Best Case, Worst Case and Average Case Complexities:
 
@@ -259,3 +262,6 @@ for(i=n;i>1;)
 3. https://youtu.be/9TlHvipP5yA
 4. https://youtu.be/9SgLBjXqwd4?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O
 5. 
+
+Current:
+1. https://youtu.be/f_IaKCB7Zo8?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y
