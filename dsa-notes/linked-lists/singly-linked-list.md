@@ -32,9 +32,9 @@ Insertion steps for Linked List:
 - we use the head node to represent the whole list.
 - So it is essential to update head when adding a new node at the beginning of the list.
 **steps:**
-- initialize a new node new_node;
+- initialize a new node new_Sll_node;
 - link the new node to our original head node.
-- assign new_node to head.
+- assign new_Sll_node to head.
 
 **For example:**
 
@@ -70,12 +70,12 @@ Let's insert a new value 9 at the end of linked list
 
 ### 2. Delete Operations (at start, at given index and at end)
 - If we want to delete an existing node from the singly linked list, we can do it in two steps:
-- find current_node's previous node and current_node's next node
-- link previous_node to current_node's next node.
+- find current_Sll_node's previous node and current_Sll_node's next node
+- link previous_node to current_Sll_node's next node.
 
 **Analysis:**
 - In our first step, we need to find out prev_node and next_node.
-- It is easy to find out next using the reference field of curr_node.
+- It is easy to find out next using the reference field of curr_Sll_node.
 - However, we have to traverse the linked list from the head node to find out prev_node which will take O(N) time on average, where N is the length of the linked list. 
 - So the time complexity of deleting a node will be O(N).
 - The space complexity is O(1) because we only need constant space to store our pointers.
