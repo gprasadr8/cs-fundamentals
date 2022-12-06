@@ -1,6 +1,7 @@
 # Arrays Problems:
 
 
+
 ##### insertion problems:
 1. Duplicate Zeros: https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/
 2. Merge Sorted Array: https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
@@ -30,3 +31,9 @@
 3. Third Maximum Number: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/
 4. Find All Numbers Disappeared in an Array: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3270/
 5. Squares of a Sorted Array: https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3574/
+
+##### Other problems:
+1. Find Pivot Index: https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/
+2. Largest Number At Least Twice of Others: https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1147/
+3. Plus One: https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1148/
+4. 
