@@ -1,6 +1,8 @@
 # Arrays
 Arrays are used to store collection of elements which are same type and elements will be stored in continuous memory location.
-
+- An array is a basic data structure to store a collection of elements sequentially. 
+- But elements can be accessed randomly since each element in the array can be identified by an array index.
+- An array can have one or more dimensions. Here we start with the one-dimensional array, which is also called the linear array.
 - We can access elements with constant time.
 - The length of an array is established when the array is created. After creation, its length is fixed
 - Array in Java is index-based, the first element of the array is stored at the 0th index, 2nd element is stored on 1st index and so on.
