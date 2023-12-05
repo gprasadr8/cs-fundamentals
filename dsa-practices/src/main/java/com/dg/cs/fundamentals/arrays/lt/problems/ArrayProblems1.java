@@ -1,5 +1,6 @@
 package com.dg.cs.fundamentals.arrays.lt.problems;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArrayProblems1 {
@@ -25,6 +26,7 @@ public class ArrayProblems1 {
                 evenNumOfDigitsInArrayCount++;
             }
         }
+        new ArrayList<>(10).stream()
         return evenNumOfDigitsInArrayCount;
     }
 
